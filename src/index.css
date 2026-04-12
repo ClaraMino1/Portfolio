@@ -4,12 +4,32 @@
 :root {
   --sans: 'DM Sans', system-ui, sans-serif;
   --SpaceGrotesk: 'Space Grotesk', system-ui, sans-serif;
+
+  --text-grey: #737373;
+  --text-black: #171717;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--sans);
+.font-spaceGrotesk-300 {
+  font-family: var(--SpaceGrotesk);
+  font-weight: 300;
+}
+
+.font-spaceGrotesk-400 {
+  font-family: var(--SpaceGrotesk);
   font-weight: 400;
+}
+
+.font-spaceGrotesk-500 {
+  font-family: var(--SpaceGrotesk);
+  font-weight: 500;
+}
+
+.font-spaceGrotesk-600 {
+  font-family: var(--SpaceGrotesk);
+  font-weight: 600;
+}
+
+.font-spaceGrotesk-700 {
+  font-family: var(--SpaceGrotesk);
+  font-weight: 700;
 }
