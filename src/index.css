@@ -7,6 +7,9 @@
 
   --text-grey: #737373;
   --text-black: #171717;
+
+  --light-grey: #F0F0F0;
+  --light-grey-2: #d9d9d9;
 }
 
 .font-spaceGrotesk-300 {
@@ -32,4 +35,24 @@
 .font-spaceGrotesk-700 {
   font-family: var(--SpaceGrotesk);
   font-weight: 700;
+}
+
+.font-DM-Sans-300 {
+  font-family: var(--sans);
+  font-weight: 300;
+}
+
+.font-DM-Sans-400 {
+  font-family: var(--sans);
+  font-weight: 400;
+}
+
+.font-DM-Sans-500 {
+  font-family: var(--sans);
+  font-weight: 500;
+}
+
+.font-DM-Sans-600 {
+  font-family: var(--sans);
+  font-weight: 600;
 }
